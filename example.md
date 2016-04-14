@@ -65,7 +65,6 @@ done
 - item3 <!-- .element: class="fragment" data-fragment-index="3" -->
 
 ---
-
 # style(動き)
 - pdf変換も出来るよ <!-- .element: class="fragment grow" -->
 - remarkにも付いて欲しいよ <!-- .element: class="fragment shrink" -->
@@ -98,11 +97,18 @@ Note: ノートのテスト
 
 ---
 # 画像
-![text](http://swfz.github.io/darts/images/img.png )
+![text](http://swfz.github.io/darts/images/img.png ) <!-- .element: style="margin: auto;" -->
+
+- センター寄せはなぜかこれ
+
+```
+![text](http://swfz.github.io/darts/images/img.png ) <!-- .element: style="margin: auto;" -->
+```
 
 ---
 
 ** 終わり **
+
 
 
 
