@@ -26,15 +26,6 @@
 .reveal ul {
   text-align: left;
 }
-/* 
-!div.reveal .slides > .reveal section img {
-  text-align: center;
-  margin:0 auto;
-  display: table-cell;
-  vertical-align: middle;
-}
- */
-
 
 /* コントロールの色 左右 */
 .reveal .controls .navigate-right, .reveal .controls .navigate-right.enabled {
