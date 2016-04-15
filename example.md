@@ -88,12 +88,13 @@ done
 |:-|:-|:-|
 | hoge | fuga | piyo |
 | HOGE | FUGA | PIYO |
+| 123  | 456  | 7890 |
 
 Note: ノートのテスト
 
 ---
 # リンク
-- [mkdocsのサンプル](http://swfz.github.io/mkdocs_sample )
+- [mkdocsのサンプル0](http://swfz.github.io/mkdocs_sample )
 
 ---
 # 画像

@@ -1,22 +1,36 @@
+body {
+  font-family: 'Ricty Diminished', 'Ricty Diminished Discord', 'メイリオ', serif;
+  background: #0b1e30;
+}
+.reveal pre code {
+  font-family: 'Ricty Diminished', 'Ricty Diminished Discord', 'メイリオ', serif;
+}
 .reveal .slides {
   text-align: initial;
 }
 .reveal strong {
-  display: block;
+  font-family: 'Ricty Diminished', 'Ricty Diminished Discord', 'メイリオ', serif;
   font-size: 5em;
+  display: block;
   text-align: center;
   vertical-align: middle;
   color: #ccc;
 }
 .reveal h1 {
   text-align: center;
+}
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  font-family: 'Ricty Diminished', 'Ricty Diminished Discord', 'メイリオ', serif;
   text-transform: initial;
 }
-.reveal h2 {
-  text-transform: initial;
-}
-.reveal h3 {
-  text-transform: initial;
+.reveal table th,
+.reveal table td {
+  font-family: 'Ricty Diminished', 'Ricty Diminished Discord', 'メイリオ', serif;
 }
 .reveal img {
   display: block;
@@ -24,17 +38,16 @@
   margin: auto;
 }
 .reveal ul {
+  font-family: 'Ricty Diminished', 'Ricty Diminished Discord', 'メイリオ', serif;
   text-align: left;
 }
-
-/* コントロールの色 左右 */
+/* コントロールの色 */
 .reveal .controls .navigate-right, .reveal .controls .navigate-right.enabled {
   border-left-color: #d33682;
 }
 .reveal .controls .navigate-left, .reveal .controls .navigate-left.enabled {
   border-right-color: #d33682;
 }
-/* コントロールの色 上下 */
 .reveal .controls .navigate-up, .reveal .controls .navigate-up.enabled {
   border-bottom-color: #d33682;
 }
