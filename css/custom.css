@@ -35,7 +35,7 @@ body {
 .reveal table td {
   font-family: 'Ricty Diminished', 'Ricty Diminished Discord', 'メイリオ', serif;
 }
-.reveal img {
+.reveal section img {
   display: block;
   text-align: center;
   margin: auto;
