@@ -82,6 +82,44 @@ done
 - 配置の設定(bottom) <!-- .element: style="vertical-align: bottom;" -->
 
 ---
+# 引用
+
+> 引用です
+> > 二重引用です
+> > > 三重引用もあり？
+
+---
+# 引用2
+
+> - list
+> - list2
+>     - list3
+
+---
+# 背景画像
+
+パラメータを付与することで動的に背景画像をパララックス表示できる
+
+```
+http://192.168.100.11:8080/?parallaxBackgroundImage=https%3A%2F%2Fs3-ap-northeast-1.amazonaws.com%2Fswfz-slide-images%2Fbackground.png&parallaxBackgroundSize=2000px%201000px/
+http://192.168.100.11:8080/?parallaxBackgroundImage=https%3A%2F%2Fs3-ap-northeast-1.amazonaws.com%2Fswfz-slide-images%2Fbackground_dark.png&parallaxBackgroundSize=2000px%201000px/
+```
+
+---
+# 背景画像
+## スライド全体の背景
+
+```
+<!-- .slide: data-background="/background01.jpeg" -->
+```
+
+## sectionの背景
+
+```
+<!-- .element: data-background="/background01.jpeg" -->
+```
+
+---
 # テーブル
 
 | a | b | c |
