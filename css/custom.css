@@ -63,4 +63,8 @@ body {
   background: #d33682;
 }
 
+.reveal blockquote {
+  width: 90%;
+  color: #d33682;
+}
 
